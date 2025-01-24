@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figure Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Figure Customizer</h1>
+    <div class="controls">
+        <h2>Controls</h2>
+        <div class="buttons">
+          <button id="circle-btn">Circle</button>
+          <button id="square-btn">Square</button>
+          <button id="clear-btn">Clear</button> <!-- Новая кнопка -->
+        </div>
+        <div class="colors">
+          <h3>Choose a Color</h3>
+          <button class="color-btn" data-color="red" style="background-color: red;"></button>
+          <button class="color-btn" data-color="blue" style="background-color: blue;"></button>
+          <button class="color-btn" data-color="green" style="background-color: green;"></button>
+        </div>
+        <div class="text-input">
+          <h3>Add Text</h3>
+          <input type="text" id="text-input" placeholder="Enter text here">
+          <button id="add-text-btn">Add Text</button>
+        </div>
+      </div>
+      
+    <div class="display">
+      <h2>Figure Display</h2>
+      <div id="figure-container"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
